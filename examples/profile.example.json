@@ -1,0 +1,28 @@
+{
+  "ProfileName": "example.com",
+  "GitRepositoryUrl": "https://github.com/example/example.com.git",
+  "Branch": "main",
+  "Remote": "origin",
+  "SiteName": "example.com",
+  "IisPath": "",
+  "AppPoolName": "example.com",
+  "RepoPath": "repos\\example.com",
+  "ProjectPath": "",
+  "SolutionPath": "",
+  "StaticPublishPath": "",
+  "ReleasesRoot": "releases\\example.com",
+  "Configuration": "Release",
+  "RuntimeIdentifier": "win-x64",
+  "SelfContained": false,
+  "KeepReleases": 5,
+  "ConfigOverlayPath": "",
+  "PreserveFiles": [
+    "appsettings.Production.json"
+  ],
+  "BackupPreviousPhysicalPathOnlyWhen": "",
+  "BackupPreviousPhysicalPathTo": "",
+  "InstallMissingDependencies": true,
+  "DiscardLocalChanges": true,
+  "SkipBrowserslistUpdate": true,
+  "DisableConsoleQuickEdit": true
+}

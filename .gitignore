@@ -1,0 +1,9 @@
+.cache/
+profiles/*.local.json
+repos/
+releases/
+backups/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

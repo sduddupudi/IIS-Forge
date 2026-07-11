@@ -1,0 +1,23 @@
+name: Validate
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  powershell:
+    name: PowerShell parser validation
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate scripts
+        shell: powershell
+        run: |
+          powershell -ExecutionPolicy Bypass -File .\Test-IISForge.ps1
